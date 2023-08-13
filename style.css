@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    color: white;
+}
+nav{
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height:1cm;
+    left: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    
+}
+li{
+    margin-right: 2cm;
+}
+a{
+    color: antiquewhite;
+}
+#section1
+{
+    margin: 0;
+    background-image: url(/1318507.jpeg);
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+}
+
+.image 
+{
+    height: 300px;
+    width:250px;
+    background-image: url(/WhatsApp\ Image\ 2023-08-12\ at\ 16.48.24.jpg);
+    background-size: cover;
+    float: left;
+    position: sticky;
+    background-position: center;
+    margin-left: 20px;
+    border:6px solid grey;
+}
+.introduction
+{
+    text-align: center;
+    float:right;
+    margin-left: 30%;
+    font-weight: bold;
+}
+.home
+{
+    display: flex;
+}
+footer{
+    bottom: 0;
+    left:0;
+    right: 0;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    display:flex
+}
+#section2
+{ 
+    background-image: url(/307193.webp);
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+    
+}
+.strip
+{
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: antiquewhite;
+    text-align: left;
+    height:1cm;
+    margin-top:0;
+}
+.sec
+{ display: flex;
+    justify-content: space-between; /* Spread sections horizontally */
+    flex-wrap: wrap; /* Allow sections to wrap to the next line */
+}
+.about
+{
+    display: inline-block;
+    height:9cm;
+    width: 8cm;
+    background-image: url(/1.jpg);
+    text-align:center;
+    list-style-position: inside;
+    flex-basis: 45%;
+    margin: 10px;
+    
+}
+.achieve
+{
+
+    display: inline-block;
+    height:9cm;
+    width: 8cm;
+    background-image: url(/2.png);
+    text-align:center;
+    flex-basis: 45%;
+    margin: 10px;
+    
+}
+.hobbies
+{
+    display: inline-block;
+    height:9cm;
+    width: 8cm;
+    background-image: url(/3.avif);
+    text-align:center;
+    list-style-position: inside;
+    flex-basis: 45%;
+    margin: 10px;
+}
+.flex-list {
+    list-style: none; /* Remove default list bullet points */
+    padding: 0;
+  }
+  
+  /* Style individual list items */
+  .flex-list li {
+    padding: 5px;
+  }
+#section3
+{
+    margin: 0;
+    background-image: url(/desktop-wallpaper-portfolio.jpg);
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-item p {
+    margin-top: 10px;
+}
